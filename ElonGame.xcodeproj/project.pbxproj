@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7C1A692076E85E00C53863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C1A682076E85E00C53863 /* AppDelegate.swift */; };
+		3C7C1A6B2076E85E00C53863 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C1A6A2076E85E00C53863 /* GameScene.sks */; };
+		3C7C1A6D2076E85E00C53863 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C1A6C2076E85E00C53863 /* Actions.sks */; };
+		3C7C1A6F2076E85E00C53863 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C1A6E2076E85E00C53863 /* GameScene.swift */; };
+		3C7C1A712076E85E00C53863 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C1A702076E85E00C53863 /* GameViewController.swift */; };
+		3C7C1A742076E85E00C53863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C1A722076E85E00C53863 /* Main.storyboard */; };
+		3C7C1A762076E85F00C53863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C1A752076E85F00C53863 /* Assets.xcassets */; };
+		3C7C1A792076E85F00C53863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C1A772076E85F00C53863 /* LaunchScreen.storyboard */; };
+		3C7C1A842076E85F00C53863 /* ElonGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C1A832076E85F00C53863 /* ElonGameTests.swift */; };
+		3C7C1A8F2076E85F00C53863 /* ElonGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C1A8E2076E85F00C53863 /* ElonGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7C1A802076E85F00C53863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7C1A5D2076E85E00C53863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7C1A642076E85E00C53863;
+			remoteInfo = ElonGame;
+		};
+		3C7C1A8B2076E85F00C53863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7C1A5D2076E85E00C53863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7C1A642076E85E00C53863;
+			remoteInfo = ElonGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7C1A652076E85E00C53863 /* ElonGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElonGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7C1A682076E85E00C53863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C7C1A6A2076E85E00C53863 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3C7C1A6C2076E85E00C53863 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3C7C1A6E2076E85E00C53863 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3C7C1A702076E85E00C53863 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3C7C1A732076E85E00C53863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7C1A752076E85F00C53863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7C1A782076E85F00C53863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C7C1A7A2076E85F00C53863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7C1A7F2076E85F00C53863 /* ElonGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElonGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7C1A832076E85F00C53863 /* ElonGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElonGameTests.swift; sourceTree = "<group>"; };
+		3C7C1A852076E85F00C53863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7C1A8A2076E85F00C53863 /* ElonGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElonGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7C1A8E2076E85F00C53863 /* ElonGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElonGameUITests.swift; sourceTree = "<group>"; };
+		3C7C1A902076E85F00C53863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7C1A622076E85E00C53863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7C1A7C2076E85F00C53863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7C1A872076E85F00C53863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7C1A5C2076E85E00C53863 = {
+			isa = PBXGroup;
+			children = (
+				3C7C1A672076E85E00C53863 /* ElonGame */,
+				3C7C1A822076E85F00C53863 /* ElonGameTests */,
+				3C7C1A8D2076E85F00C53863 /* ElonGameUITests */,
+				3C7C1A662076E85E00C53863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7C1A662076E85E00C53863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7C1A652076E85E00C53863 /* ElonGame.app */,
+				3C7C1A7F2076E85F00C53863 /* ElonGameTests.xctest */,
+				3C7C1A8A2076E85F00C53863 /* ElonGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7C1A672076E85E00C53863 /* ElonGame */ = {
+			isa = PBXGroup;
+			children = (
+				3C7C1A682076E85E00C53863 /* AppDelegate.swift */,
+				3C7C1A6A2076E85E00C53863 /* GameScene.sks */,
+				3C7C1A6C2076E85E00C53863 /* Actions.sks */,
+				3C7C1A6E2076E85E00C53863 /* GameScene.swift */,
+				3C7C1A702076E85E00C53863 /* GameViewController.swift */,
+				3C7C1A722076E85E00C53863 /* Main.storyboard */,
+				3C7C1A752076E85F00C53863 /* Assets.xcassets */,
+				3C7C1A772076E85F00C53863 /* LaunchScreen.storyboard */,
+				3C7C1A7A2076E85F00C53863 /* Info.plist */,
+			);
+			path = ElonGame;
+			sourceTree = "<group>";
+		};
+		3C7C1A822076E85F00C53863 /* ElonGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7C1A832076E85F00C53863 /* ElonGameTests.swift */,
+				3C7C1A852076E85F00C53863 /* Info.plist */,
+			);
+			path = ElonGameTests;
+			sourceTree = "<group>";
+		};
+		3C7C1A8D2076E85F00C53863 /* ElonGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7C1A8E2076E85F00C53863 /* ElonGameUITests.swift */,
+				3C7C1A902076E85F00C53863 /* Info.plist */,
+			);
+			path = ElonGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7C1A642076E85E00C53863 /* ElonGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7C1A932076E85F00C53863 /* Build configuration list for PBXNativeTarget "ElonGame" */;
+			buildPhases = (
+				3C7C1A612076E85E00C53863 /* Sources */,
+				3C7C1A622076E85E00C53863 /* Frameworks */,
+				3C7C1A632076E85E00C53863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElonGame;
+			productName = ElonGame;
+			productReference = 3C7C1A652076E85E00C53863 /* ElonGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C7C1A7E2076E85F00C53863 /* ElonGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7C1A962076E85F00C53863 /* Build configuration list for PBXNativeTarget "ElonGameTests" */;
+			buildPhases = (
+				3C7C1A7B2076E85F00C53863 /* Sources */,
+				3C7C1A7C2076E85F00C53863 /* Frameworks */,
+				3C7C1A7D2076E85F00C53863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7C1A812076E85F00C53863 /* PBXTargetDependency */,
+			);
+			name = ElonGameTests;
+			productName = ElonGameTests;
+			productReference = 3C7C1A7F2076E85F00C53863 /* ElonGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C7C1A892076E85F00C53863 /* ElonGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7C1A992076E85F00C53863 /* Build configuration list for PBXNativeTarget "ElonGameUITests" */;
+			buildPhases = (
+				3C7C1A862076E85F00C53863 /* Sources */,
+				3C7C1A872076E85F00C53863 /* Frameworks */,
+				3C7C1A882076E85F00C53863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7C1A8C2076E85F00C53863 /* PBXTargetDependency */,
+			);
+			name = ElonGameUITests;
+			productName = ElonGameUITests;
+			productReference = 3C7C1A8A2076E85F00C53863 /* ElonGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7C1A5D2076E85E00C53863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Willie Yam";
+				TargetAttributes = {
+					3C7C1A642076E85E00C53863 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3C7C1A7E2076E85F00C53863 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3C7C1A642076E85E00C53863;
+					};
+					3C7C1A892076E85F00C53863 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3C7C1A642076E85E00C53863;
+					};
+				};
+			};
+			buildConfigurationList = 3C7C1A602076E85E00C53863 /* Build configuration list for PBXProject "ElonGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7C1A5C2076E85E00C53863;
+			productRefGroup = 3C7C1A662076E85E00C53863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7C1A642076E85E00C53863 /* ElonGame */,
+				3C7C1A7E2076E85F00C53863 /* ElonGameTests */,
+				3C7C1A892076E85F00C53863 /* ElonGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7C1A632076E85E00C53863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7C1A742076E85E00C53863 /* Main.storyboard in Resources */,
+				3C7C1A6B2076E85E00C53863 /* GameScene.sks in Resources */,
+				3C7C1A762076E85F00C53863 /* Assets.xcassets in Resources */,
+				3C7C1A792076E85F00C53863 /* LaunchScreen.storyboard in Resources */,
+				3C7C1A6D2076E85E00C53863 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7C1A7D2076E85F00C53863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7C1A882076E85F00C53863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7C1A612076E85E00C53863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7C1A6F2076E85E00C53863 /* GameScene.swift in Sources */,
+				3C7C1A712076E85E00C53863 /* GameViewController.swift in Sources */,
+				3C7C1A692076E85E00C53863 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7C1A7B2076E85F00C53863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7C1A842076E85F00C53863 /* ElonGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7C1A862076E85F00C53863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7C1A8F2076E85F00C53863 /* ElonGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7C1A812076E85F00C53863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7C1A642076E85E00C53863 /* ElonGame */;
+			targetProxy = 3C7C1A802076E85F00C53863 /* PBXContainerItemProxy */;
+		};
+		3C7C1A8C2076E85F00C53863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7C1A642076E85E00C53863 /* ElonGame */;
+			targetProxy = 3C7C1A8B2076E85F00C53863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C7C1A722076E85E00C53863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7C1A732076E85E00C53863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C7C1A772076E85F00C53863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7C1A782076E85F00C53863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7C1A912076E85F00C53863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C7C1A922076E85F00C53863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7C1A942076E85F00C53863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQM8LZQU97;
+				INFOPLIST_FILE = ElonGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Design-Code.ElonGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C7C1A952076E85F00C53863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQM8LZQU97;
+				INFOPLIST_FILE = ElonGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Design-Code.ElonGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C7C1A972076E85F00C53863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQM8LZQU97;
+				INFOPLIST_FILE = ElonGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Design-Code.ElonGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElonGame.app/ElonGame";
+			};
+			name = Debug;
+		};
+		3C7C1A982076E85F00C53863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQM8LZQU97;
+				INFOPLIST_FILE = ElonGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Design-Code.ElonGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElonGame.app/ElonGame";
+			};
+			name = Release;
+		};
+		3C7C1A9A2076E85F00C53863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQM8LZQU97;
+				INFOPLIST_FILE = ElonGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Design-Code.ElonGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElonGame;
+			};
+			name = Debug;
+		};
+		3C7C1A9B2076E85F00C53863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQM8LZQU97;
+				INFOPLIST_FILE = ElonGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Design-Code.ElonGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElonGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7C1A602076E85E00C53863 /* Build configuration list for PBXProject "ElonGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7C1A912076E85F00C53863 /* Debug */,
+				3C7C1A922076E85F00C53863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7C1A932076E85F00C53863 /* Build configuration list for PBXNativeTarget "ElonGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7C1A942076E85F00C53863 /* Debug */,
+				3C7C1A952076E85F00C53863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7C1A962076E85F00C53863 /* Build configuration list for PBXNativeTarget "ElonGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7C1A972076E85F00C53863 /* Debug */,
+				3C7C1A982076E85F00C53863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7C1A992076E85F00C53863 /* Build configuration list for PBXNativeTarget "ElonGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7C1A9A2076E85F00C53863 /* Debug */,
+				3C7C1A9B2076E85F00C53863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7C1A5D2076E85E00C53863 /* Project object */;
+}
